@@ -1,0 +1,9 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <ShortName>e.g. "rain in London"</ShortName>
+    <Description>
+        Search When is rain coming?
+    </Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <Image width="16" height="16" type="image/x-icon">favicon.ico</Image>
+    <Url type="text/html" method="get" template="http:///?q={searchTerms}"/>
+</OpenSearchDescription>

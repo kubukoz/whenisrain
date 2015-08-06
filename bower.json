@@ -1,0 +1,23 @@
+{
+  "name": "whenisrain",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kubukoz/whenisrain",
+  "authors": [
+    "kubukoz <kubukoz@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3",
+    "font-awesome": "~4.4.0",
+    "angular-route": "~1.4.3",
+    "angular-contenteditable": "~0.3.7",
+    "ngSilent": "garakh/ngSilent#master"
+  }
+}

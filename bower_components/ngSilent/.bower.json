@@ -1,0 +1,14 @@
+{
+  "name": "ngSilent",
+  "homepage": "https://github.com/garakh/ngSilent",
+  "_release": "ef96a3608e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "ef96a3608ef5913421d0f0068c3c4fb4184f43f4"
+  },
+  "_source": "git://github.com/garakh/ngSilent.git",
+  "_target": "master",
+  "_originalSource": "garakh/ngSilent",
+  "_direct": true
+}
