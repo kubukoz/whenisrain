@@ -5,5 +5,5 @@
     </Description>
     <InputEncoding>UTF-8</InputEncoding>
     <Image width="16" height="16" type="image/x-icon">favicon.ico</Image>
-    <Url type="text/html" method="get" template="http:///?q={searchTerms}"/>
+    <Url type="text/html" method="get" template="http://kubukoz.github.io/whenisrain?q={searchTerms}"/>
 </OpenSearchDescription>
