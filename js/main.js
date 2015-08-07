@@ -46,7 +46,7 @@ app.controller("MainController", function ($scope, $location, $timeout, $http, $
     var searchPromise = null;
     var search = function(what, where){
         $scope.c.loading = true;
-        $http.get("http://api.openweathermap.org/data/2.5/forecast/daily?q="+where+"&units=metric&cnt=14&APPID=7185a3dfa3a19ad2c1312d82482ddc82").success(function(result){
+        $http.get("https://api.openweathermap.org/data/2.5/forecast/daily?q="+where+"&units=metric&cnt=14&APPID=7185a3dfa3a19ad2c1312d82482ddc82").success(function(result){
             what = what.split("sun").join("clear");
             var list = result.list;
             list = list.filter(function (item) {
