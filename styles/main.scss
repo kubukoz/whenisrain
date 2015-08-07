@@ -58,7 +58,7 @@ body{
     }
   }
   h2{
-    margin-top: 100px;
+    margin-top: 5vh;
     font-family: $font-main;
     font-weight: $light;
     color: $white;
@@ -77,9 +77,29 @@ footer{
   padding: 10px 20px;
   color: $white;
   font-weight: $light;
-  z-index: 9;
   a{
     color: $white;
     font-weight: $bold;
   }
+}
+@media (max-width: 700px), (max-height: 300px){
+  #main{
+    h1{
+      font-size: 2em;
+    }
+    #result{
+      font-size: 2.5em;
+    }
+  }
+  footer{
+    font-size: 1em;
+    padding: 3px 10px;
+    bottom: 10px;
+  }
+}
+@media (max-height:500px){
+  #forklink {
+    display: none;
+  }
+
 }
