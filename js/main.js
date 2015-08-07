@@ -52,7 +52,7 @@ app.controller("MainController", function ($scope, $location, $timeout, $http, $
             list = list.filter(function (item) {
                 return item.weather.filter(function (weather) {
                         return weather.main.toLowerCase().indexOf(what.toLowerCase()) > -1;
-                    }).length > 0;
+                    }).length > 0 && item.dt>new Date().valueOf()/1000;
             });
             if(list.length>0){
                 var days = Math.ceil((list[0].dt - new Date().valueOf()/1000)/3600/24);
